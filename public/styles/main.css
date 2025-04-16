@@ -1,0 +1,18 @@
+.blogs {
+    color: #A0A0A0;
+}
+
+.blogs > div > div:hover {
+    background-color: #20252E; /* subtle highlight from #161B22 */
+    transform: scale(1.02);
+    box-shadow: 0 4px 16px rgba(63, 169, 245, 0.15); /* soft electric blue glow */
+}  
+
+.blogs>div>div{
+    background-color: #161B22;
+}
+
+.blogs h3, .blogs a {
+    color: #E6E6E6;
+    text-decoration: none;
+}
