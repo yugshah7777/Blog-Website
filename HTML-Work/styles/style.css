@@ -1,1 +1,62 @@
+body {
+    background-color: #0D1117;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
+header a, footer span{
+    font-size: 1.2rem !important;
+    color: #3FA9F5 !important;
+}
+
+header a:hover {
+    font-size: 1.3rem !important;
+    color: #6E40C9 !important;
+}
+
+header {
+    background-color: #0D1117;
+    position: fixed;
+    top: 0;
+    width: 98%;
+    z-index: 1;
+}
+
+footer {
+    background-color: #0D1117;
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+    z-index: 1;
+}
+.btn-violet {
+  background-color: #3FA9F5;   /* secondary accent */
+  border-color: #3FA9F5;
+  color: white;
+}
+
+.btn-violet:hover {
+  background-color: #6E40C9;   /* use primary accent as hover contrast */
+  border-color: #6E40C9;
+  color: white;
+}
+
+.btn-outline-violet {
+  color: #3FA9F5;
+  border-color: #3FA9F5;
+  background-color: transparent;
+}
+
+.btn-outline-violet:hover {
+  background-color: #6E40C9;
+  color: white;
+  border-color: #6E40C9;
+}
+
+/* Optional smooth transitions */
+.btn-violet,
+.btn-outline-violet {
+  transition: all 0.3s ease-in-out;
+}
